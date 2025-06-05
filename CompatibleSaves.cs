@@ -37,6 +37,7 @@ public class CompatibleSaves : BaseUnityPlugin
                 .End()
                 .MatchBack(true, new CodeMatch(OpCodes.Blt))
                 .Advance(1)
+                .SetInstruction(new CodeInstruction(OpCodes.Ldc_I4_1))
                 .InstructionEnumeration();
     }
 }
