@@ -1,8 +1,8 @@
 {
   "name": "CompatibleSaves",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/baerchen201/LethalCompatibleSaves",
-  "description": "Removes the annoying \"You have incompatible saves\" popup",
+  "description": "Removes the annoying \"Some saves files are incompatible\" popup",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
   ]
